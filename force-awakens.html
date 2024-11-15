@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Star Wars</title>
+  <link rel="stylesheet" href="dark-side.css">
+  <link rel="icon" type="image/png" href="/Img/anakin.webp">
+</head>
+<body>
+  <header class="jedi-header">
+    <h1>The Star Wars Character Holocron</h1>
+    <input id="force-search" type="text" placeholder="Search the galaxy..." />
+    <button id="search-jedi">Search</button>
+  </header>
+
+  <main>
+    <div id="galactic-character-list" class="character-grid"></div>
+    <div id="galactic-pagination"></div>
+
+    <div id="holocron-details" class="hidden">
+      <h2 id="character-name"></h2>
+      <p><strong>Height:</strong> <span id="character-height"></span></p>
+      <p><strong>Mass:</strong> <span id="character-mass"></span></p>
+      <p><strong>Gender:</strong> <span id="character-gender"></span></p>
+      <p><strong>Birth Year:</strong> <span id="character-birth"></span></p>
+      <p><strong>Eye Color:</strong> <span id="character-eyes"></span></p>
+      <p><strong>Skin Color:</strong> <span id="character-skin"></span></p>
+
+      <button id="toggle-death-star">Show More</button>
+      <div id="complex-data" class="hidden">
+        <p><strong>Films:</strong> <span id="character-films"></span></p>
+        <p><strong>Vehicles:</strong> <span id="character-vehicles"></span></p>
+        <p><strong>Starships:</strong> <span id="character-starships"></span></p>
+      </div>
+    </div>
+  </main>
+
+  <script src="sith-code.js"></script>
+</body>
+</html>
