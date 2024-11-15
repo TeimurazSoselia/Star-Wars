@@ -12,7 +12,7 @@ function fetchCharacters(page = 1, query = '') {
     });
 }
 
-// Function to display character  cards
+// Function to display character cards
 function displayCharacters(characters) {
   const characterList = document.getElementById('galactic-character-list');
   characterList.innerHTML = characters
