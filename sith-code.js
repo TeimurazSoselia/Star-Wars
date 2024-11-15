@@ -1,7 +1,7 @@
 const apiUrl = 'https://swapi.dev/api/people/';
 let currentPage = 1;
 
-// Function to fetch characters
+// Function to fetch character 
 function fetchCharacters(page = 1, query = '') {
   const url = query ? `${apiUrl}?search=${query}` : `${apiUrl}?page=${page}`;
   fetch(url)
