@@ -1,0 +1,92 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("Img/darth.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.jedi-header {
+    background-color: rgba(34, 34, 34, 0.6);
+    text-align: center;
+    padding: 1rem;
+}
+  
+.jedi-header input {
+    margin-right: 0.5rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+#search-jedi{
+    padding: 9px;
+    cursor: pointer;
+}
+
+.character-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+  
+.character-card {
+    background: #333;
+    padding: 1rem;
+    border-radius: 8px;
+    width: 200px;
+    text-align: center;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.402);
+}
+  
+.character-card:hover {
+    background: #444;
+}
+  
+.character-card button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background: #ffcc00;
+    color: #000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+#holocron-details {
+    background: rgba(17, 17, 17, 0.817);
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1rem auto;
+    max-width: 500px;
+    box-shadow: 0 2px 5px rgba(255, 255, 0, 0.5);
+    transition: all 0.3s ease;
+}
+  
+#holocron-details.hidden {
+    display: none;
+}
+  
+#complex-data {
+    margin-top: 1rem;
+    padding: 0 1rem;
+}
+
+#complex-data.hidden {
+    display: none;
+}
+  
+.motofBTNS{
+    margin: auto;
+    text-align: center;
+}
+
+.motofBTNS button{
+    width: 80px;
+    padding: 10px;
+    cursor: pointer;
+}
